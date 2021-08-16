@@ -3,7 +3,7 @@
 using namespace std;
 int factorial(int n){
     if(n<0){
-        cout<<"Please enter a positive number:";
+        cout<<"Please enter a positive number:"<<endl;
     }
     if(n!=1){
 	return(n * factorial(n-1));
